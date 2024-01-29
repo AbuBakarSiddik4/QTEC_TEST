@@ -1,0 +1,505 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+/* Nabbar styling start here */
+.navbar {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 50%;
+  /* border: 1px solid rgb(36, 14, 14); */
+  margin: 0 0 0 24px;
+}
+.navlinks {
+  /* border: 1px solid rgb(213, 3, 3); */
+  margin: 0 12px 0 0;
+  width: 50%;
+}
+.navlinks ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.navlinks ul li a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 700;
+  padding: 10px;
+  &:hover {
+    background-color: #e7b3b3;
+    color: #fff;
+  }
+}
+.navlinks ul li button {
+  border-radius: 10px;
+  padding: 11px 16px;
+  text-decoration: none;
+  color: grey;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #c48484;
+    color: #fff;
+  }
+}
+
+/* Nabvar styling end here */
+
+/* Hero section styling start here */
+
+.hero {
+  height: auto;
+}
+.hero-inside {
+  padding: 10px;
+  height: 637px;
+  background: #faf8f6;
+}
+.inside {
+  padding: 10px;
+  height: 637px;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  padding: 30px;
+}
+.hero-left-text {
+  padding: 10px;
+}
+.small-text {
+  color: #4a556c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.32px;
+  opacity: 0.4;
+  margin: 2px;
+}
+.long-bold-text {
+  color: #333461;
+  font-family: "Kumbh Sans";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: -0.72px;
+  margin: 5px;
+}
+.long-text {
+  color: #4a556c;
+  font-family: "Kumbh Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  margin: 18px;
+}
+.btn button {
+  display: flex;
+  width: 250px;
+  padding: 9px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #20ad96;
+
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #c48484;
+    color: #fff;
+  }
+  margin: 10px;
+}
+p {
+  font-weight: 400;
+}
+.target {
+  display: inline-flex;
+  padding: 24px;
+  align-items: flex-start;
+  gap: 10px;
+  background: #fff;
+  box-shadow: 0px 16px 96px 0px rgba(111, 124, 144, 0.16);
+  position: absolute;
+  left: 700px;
+}
+.right {
+  background-image: url(./andrea.png);
+  width: 82%;
+  height: 626px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+}
+/* Hero section styling end here */
+
+/* Introduction section styling start here */
+
+.introduction {
+  height: auto;
+}
+.intro-inner {
+  padding: 96px 150px 61px 150px;
+  /* border: 1px solid red; */
+}
+.intro-top {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 5px;
+}
+.intro-top-left {
+  width: 50%;
+  color: #333461;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px;
+}
+.intro-top-right {
+  width: 50%;
+  color: #4a556c;
+
+  font-family: "Kumbh Sans";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.intro-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.intro-bottom-box {
+  padding: 40px;
+  /* border: 1px solid red; */
+}
+.intro-bottom-top {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  margin-bottom: 8px;
+  height: 40px;
+}
+.hed {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+.normal {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Introduction section styling end here */
+
+/* Reviews section styling start here */
+
+.reviews {
+  height: auto;
+  background: #faf8f6;
+  padding: 50px 50px 182px 50px;
+}
+.client {
+  color: #333461;
+  font-family: "Kumbh Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  width: 100%;
+  text-align: left;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.review-cards {
+  padding: 10px;
+  border: 1px solid #edeff5;
+  opacity: 0.75;
+  background: #fff;
+  flex: 4;
+}
+.msg p {
+  color: #010c23;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.reviewer-name p {
+  color: #292a42;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.reviewer-profile-img img {
+  width: 44px;
+}
+/* Reviews section styling end here */
+
+/* Blogs section styling start here */
+
+.blogs {
+  height: auto;
+  padding: 46px 10px 88px 10px;
+}
+
+.blog-header {
+  color: #333461;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.blog-cards {
+  display: flex;
+  justify-content: space-around;
+}
+.blog-card {
+  margin: 10px;
+  padding: 10px;
+}
+.blog-info {
+  padding: 15px;
+}
+.blog-title p {
+  font-size: 20px;
+  color: #1c0707;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.blog-header button {
+  padding: 15px;
+  border-radius: 10px;
+  background: #20ad96;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #c48484;
+    color: #fff;
+  }
+  margin: 10px;
+}
+/* Blogs section styling end here */
+
+/* Free-Guide section styling start here */
+
+.free-guide {
+  height: auto;
+  /* border: 1px solid red; */
+  padding: 15px;
+}
+.guide-inside {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.guide-left {
+  width: 50%;
+}
+.guide-header p {
+  font-size: 48px;
+  font-weight: 800;
+  padding: 30px;
+  color: #333461;
+}
+.guide-content {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 20px;
+}
+.content-bold {
+  font-size: 16px;
+  font-weight: 700;
+}
+.guide-right {
+  width: 50%;
+  /* border: 1px solid red; */
+  position: relative;
+}
+.right-top-round {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 90px;
+  background-color: #20ad96;
+  padding: 20px;
+  border-radius: 100%;
+}
+.right-top-round p {
+  text-align: center;
+  color: #edeff5;
+}
+.guide-inner {
+  margin: 15px;
+  background-color: #21279abf;
+  position: relative;
+  z-index: -2;
+  height: 92%;
+}
+.right-text {
+  padding: 31px;
+  color: #fff;
+  width: 50%;
+  font-size: 40px;
+  margin-bottom: 93px;
+  text-shadow: 2px 0px 47px rgba(219, 176, 176, 0.84);
+}
+.right-bottom-text {
+  padding: 31px;
+  color: #fff;
+  width: 50%;
+  margin-bottom: 93px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.text-with-icons {
+  margin-left: 5px;
+}
+.pic {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.pic img {
+  width: 443.556px;
+  height: 443.539px;
+}
+/* Free-Guide section styling end here */
+
+/* CTA section styling start here */
+
+.cta {
+  height: auto;
+}
+.cta-inner {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.left-text {
+  width: 50%;
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.left-text h1 {
+  color: #333461;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+.left-text p {
+  color: rgba(74, 85, 108, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.right-img {
+  background-image: url(./Screen.png);
+  width: 50%;
+  height: 626px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+}
+/* CTA section styling end here */
+
+/* Footer section styling start here */
+
+.footer {
+  height: auto;
+  background-color: #FAF8F6;
+}
+.footer-inner {
+  margin: 10px;
+  padding: 10px;
+}
+.top-footer {
+  display: flex;
+  padding: 10px;
+}
+.left-top-footer {
+  width: 50%;
+  padding: 10px;
+}
+.left-top-footer .text h1 {
+  color: #333461;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+}
+.left-top-footer .text p {
+  color: #4a556c;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.right-top-footer {
+  width: 50%;
+  padding: 10px;
+}
+.right-top-footer input {
+    padding:10px;
+    border: 1px solid #ddd;
+}
+.right-top-footer button {
+    padding:10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #20AD96;
+    color: #fff;
+}
+.bottom-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding:15px;
+    padding-bottom: 100px;
+}
+.second {
+    width: 33%;
+}
+.second p:nth-child(1) {
+    font-weight: bold;
+}
+
+
+
+/* footer section styling end here */
